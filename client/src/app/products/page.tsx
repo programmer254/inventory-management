@@ -5,7 +5,7 @@ import { PlusCircleIcon, SearchIcon } from "lucide-react";
 import { useState } from "react"
 import Header from "@/app/(components)/Header"; //ABSOLUTE PATH
 // import Header from "../(components)/Header";
-import { Product } from '../../../../.history/client/src/state/api_20250208190927';
+import { Product } from "@/state/api";
 import Rating from "../(components)/Rating";
 import CreateProductModal from "./CreateProductModal";
 
