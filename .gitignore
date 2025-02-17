@@ -5,3 +5,7 @@ server/dist/
 client/.env/
 server/.env/
 client/.next/
+
+# Ignore other build artifacts, like Prisma generated files, if needed
+client/prisma/
+server/prisma/
