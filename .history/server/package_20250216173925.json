@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "ts-node prisma/seed.ts",
-    "build": "rimraf dist && npx tsc",
+    "build": "rimraf dist && npx tsc && next build",
     "start": "npm run build && node dist/index.js",
     "dev": "npm run build && concurrently \"npx tsc -w\" \" nodemon --exec ts-node src/index.ts\""
   },
@@ -15,7 +15,6 @@
   "description": "",
   "dependencies": {
     "@prisma/client": "^6.3.0",
-    "autoprefixer": "^10.4.20",
     "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
     "cors": "^2.8.5",

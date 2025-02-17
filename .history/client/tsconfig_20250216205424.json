@@ -17,7 +17,7 @@
     "jsx": "preserve",
     "incremental": true,
     "typeRoots": ["./node_modules/@types", "./node_modules"],
-    "types": ["node", "alloc"],
+    "types": ["node", "@alloc"],
     "plugins": [
       {
         "name": "next"
